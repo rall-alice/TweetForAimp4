@@ -1,0 +1,4 @@
+LIBRARY "TweetForAimp4"
+
+EXPORTS
+    AIMPPluginGetHeader

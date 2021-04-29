@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\SDK">
+      <UniqueIdentifier>{aa067084-3e56-4c49-bf55-1aedfe0f659e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\T4A">
+      <UniqueIdentifier>{5dbdf214-4546-4f56-9c9e-b1970970e6ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiActions.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiAlbumArt.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiCore.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiDecoders.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiFileManager.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiGUI.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiInternet.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiLyrics.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiMenu.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiMessages.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiMUI.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiMusicLibrary.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiObjects.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiOptions.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiPlayer.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiPlaylists.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiPlugin.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiRemote.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiScheduler.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiSkins.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiTagEditor.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiThreading.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpSDK\apiVisuals.h">
+      <Filter>ヘッダー ファイル\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="IUnknownInterface.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="AimpPlugin.h">
+      <Filter>ヘッダー ファイル\T4A</Filter>
+    </ClInclude>
+    <ClInclude Include="PluginData.h">
+      <Filter>ヘッダー ファイル\T4A</Filter>
+    </ClInclude>
+    <ClInclude Include="TweetForAimp4.h">
+      <Filter>ヘッダー ファイル\T4A</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TweetForAimp4.def">
+      <Filter>ソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+</Project>
